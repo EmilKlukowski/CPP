@@ -80,5 +80,5 @@ int main() {
 
     std::vector<std::array<move, 3>> triple = chunk(vecMove);
     effectively_idle(triple);
-    return 0;
+    return 0; 
 }
