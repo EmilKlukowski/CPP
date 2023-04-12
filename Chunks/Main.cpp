@@ -3,6 +3,13 @@
 #include <string>
 #include <algorithm>
 
+//Napisz funkcje chunk(), kt ́ora przyjmie std::vector przechowujacy typ wyliczeniowy
+//o nazwie move z mozliwymi wartosciami: left, right oraz idle. Funkcja ma zwrocic std::vector przechowujacy
+//trojelementowe tablice tego samego typu, co elementy wektora wej ́sciowego. Je zeli liczba element ́ow wektora wejsciowego jest
+//niepodzielna przez 3, to ostatnia trojke dope lnij warto ́sciami idle. Napisz funkcje effectivelyidle(), ktora bedzie mogla przyjac
+//obiekt zwracany przez funkcje chunk() oraz sprawdzi, czy wszystkie przekazane tr ́ojki (wspomniane wcze ́sniej trojelementowe tablice)
+//efektywnie reprezentuja brak ruchu (brak ruchu jest reprezentowany przez dwa, wykluczajace sie ruchy, czylilewo-prawo lub prawo-lewo
+//i dodatkowy ruch idle lub po prostu przez trzy ruchy idle).
 
 //5=====
 enum move {
